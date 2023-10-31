@@ -10,8 +10,8 @@ func main() {
 		CCV:          "123",
 	}
 
-	payWith(props, structuralpatterns.BrasPagAdapter{})
-	// payWith(props, structuralpatterns.PagarmeAdapter{})
+	// payWith(props, structuralpatterns.BrasPagAdapter{})
+	payWith(props, structuralpatterns.PagarmeAdapter{})
 	// payWith(props, structuralpatterns.StripeAdapter{})
 
 }
